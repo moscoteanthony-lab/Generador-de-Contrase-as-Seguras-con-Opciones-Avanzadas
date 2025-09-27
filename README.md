@@ -1,0 +1,1 @@
+Aplicación web minimalista hecha con HTML, CSS y JavaScript que permite generar contraseñas aleatorias y seguras con diferentes configuraciones: incluir mayúsculas, minúsculas, números y símbolos. El usuario puede copiar la contraseña al portapapeles, mostrarla/ocultarla
