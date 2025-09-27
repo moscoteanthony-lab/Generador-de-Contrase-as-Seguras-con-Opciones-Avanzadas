@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e293b; /* azul oscuro */
+  color: white;
+}
+
+.card {
+  background: #334155;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  width: 320px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.output {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.output input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.output button {
+  background: #3b82f6;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.output button:hover {
+  background: #2563eb;
+}
+
+.options {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.options label {
+  display: block;
+  margin: 5px 0;
+}
+
+.generate {
+  background: #10b981;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.generate:hover {
+  background: #059669;
+}
+
+#strength {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.1);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Contraseñas</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="card">
+    <h2>🔑 Generador de Contraseñas</h2>
+
+    <div class="output">
+      <input type="text" id="password" readonly>
+      <button id="copyBtn">Copiar</button>
+    </div>
+
+    <div class="options">
+      <label>Longitud: 
+        <input type="range" id="length" min="4" max="32" value="12">
+        <span id="lenVal">12</span>
+      </label>
+
+      <label><input type="checkbox" id="optLetters" checked> Letras</label>
+      <label><input type="checkbox" id="optNumbers" checked> Números</label>
+      <label><input type="checkbox" id="optSymbols"> Símbolos</label>
+    </div>
+
+    <button id="generateBtn" class="generate">Generar</button>
+    <p id="strength">Fuerza: -</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
